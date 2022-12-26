@@ -11,6 +11,8 @@
 		447D470A2959F96700A8EC5C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447D47092959F96700A8EC5C /* ContentView.swift */; };
 		447D470C2959F96D00A8EC5C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 447D470B2959F96D00A8EC5C /* Assets.xcassets */; };
 		447D470F2959F96D00A8EC5C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 447D470E2959F96D00A8EC5C /* Preview Assets.xcassets */; };
+		447D47172959F9CE00A8EC5C /* RetroCalcUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447D47152959F9CD00A8EC5C /* RetroCalcUI.swift */; };
+		447D47182959F9CE00A8EC5C /* RetroButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447D47162959F9CD00A8EC5C /* RetroButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		447D47092959F96700A8EC5C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		447D470B2959F96D00A8EC5C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		447D470E2959F96D00A8EC5C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		447D47152959F9CD00A8EC5C /* RetroCalcUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RetroCalcUI.swift; sourceTree = "<group>"; };
+		447D47162959F9CD00A8EC5C /* RetroButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RetroButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				447D47072959F96700A8EC5C /* Retro_CalculatorApp.swift */,
 				447D47092959F96700A8EC5C /* ContentView.swift */,
+				447D47162959F9CD00A8EC5C /* RetroButton.swift */,
+				447D47152959F9CD00A8EC5C /* RetroCalcUI.swift */,
 				447D470B2959F96D00A8EC5C /* Assets.xcassets */,
 				447D470D2959F96D00A8EC5C /* Preview Content */,
 			);
@@ -137,8 +143,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				447D47182959F9CE00A8EC5C /* RetroButton.swift in Sources */,
 				447D470A2959F96700A8EC5C /* ContentView.swift in Sources */,
 				447D47082959F96700A8EC5C /* Retro_CalculatorApp.swift in Sources */,
+				447D47172959F9CE00A8EC5C /* RetroCalcUI.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
